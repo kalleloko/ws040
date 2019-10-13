@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4ca91cd7388510073ff497b29fffa035",
+    "packages": [
+        {
+            "name": "tflori/orm",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tflori/orm.git",
+                "reference": "819ed07c516ac224e3fbb8ab5215701ee33e6c0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tflori/orm/zipball/819ed07c516ac224e3fbb8ab5215701ee33e6c0c",
+                "reference": "819ed07c516ac224e3fbb8ab5215701ee33e6c0c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pdo": "*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.1",
+                "phpunit/phpunit": "^5.6",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "suggest": {
+                "mockery/mockery": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ORM\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "lightweight object relational mapper",
+            "time": "2019-05-29T08:02:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

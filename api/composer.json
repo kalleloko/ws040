@@ -1,0 +1,14 @@
+{
+    "name": "kallelindqvist/ws040api",
+    "description": "Api for 040 work sample",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kalle Lindqvist",
+            "email": "kalle@webblokomotivet.se"
+        }
+    ],
+    "require": {
+        "tflori/orm": "^1.7"
+    }
+}

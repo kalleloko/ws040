@@ -1,0 +1,18 @@
+$theme-colors: (
+  "primary": $dark-brown
+);
+$input-height: 3.5rem;
+$input-padding-y: 1.5rem;
+$input-padding-x: 1.5rem;
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/input-group";
+@import "../../node_modules/bootstrap/scss/forms";
+
+.btn {
+  font-weight: 700;
+}
